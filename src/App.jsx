@@ -1,11 +1,9 @@
 
 const App = () => {
-
   return (
-    <div>
+    <div className="container">
       <h1>Create Account</h1>
-      <form
-        >
+      <form>
         <input
           type="email"
           placeholder="Email"
@@ -22,12 +20,9 @@ const App = () => {
           type="text"
           placeholder="Name"
           name="name"
-       
           required
         />
-        <button type="submit">
-            Submit
-        </button>
+        <button type="submit">Submit</button>
       </form>
     </div>
   );
