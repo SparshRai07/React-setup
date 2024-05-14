@@ -6,8 +6,17 @@ html, body {
   justify-content: center;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
 .container {
   min-width: 500px;
+  width: 30%;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   border-radius: 8px;
@@ -44,4 +53,34 @@ button {
 
 button:hover {
   background-color: #434CD9;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width: 100vw;
+  padding: 0 20px 0 20px;
+}
+
+.navbar div {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.nav-links {
+  font-size: 16px;
+}
+
+.nav-links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
 }
