@@ -22,7 +22,28 @@ const App = () => {
   };
 
   return (
+    <>
+    <nav className="navbar">
+        <div className="nav-links">
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/contact">Contact</a>
+        </div>
+        <div>
+          Twitter
+        </div>
+      </nav>
     <div className="container">
+      <nav className="navbar">
+        <div className="nav-links">
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/contact">Contact</a>
+        </div>
+        <div>
+          Twitter
+        </div>
+      </nav>
       <h1>Create Account</h1>
       <form onSubmit={handleSubmit}>
         <input
@@ -60,6 +81,7 @@ const App = () => {
         <button type="submit">Submit</button>
       </form>
     </div>
+    </>
   );
 };
 
